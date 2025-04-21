@@ -1,0 +1,30 @@
+body.dark-mode {
+    --primary-color: #1a1a2e;
+    --secondary-color: #16213e;
+    --accent-color: #0f3460;
+    --text-color: #e94560;
+    --background-color: #16213e;
+    --card-background: #1a1a2e;
+    --border-color: #0f3460;
+}
+
+.dark-mode-toggle {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.dark-mode .rate-card,
+.dark-mode .crypto-card {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.dark-mode input,
+.dark-mode select {
+    background: var(--secondary-color);
+    color: white;
+    border-color: var(--border-color);
+}
